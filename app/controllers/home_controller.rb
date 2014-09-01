@@ -17,7 +17,8 @@ class HomeController < ActionController::Base
 
   def verify_signature(payload_body)
     debugger
-    signature = 'sha1=' + OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha1'), ENV['SECRET_TOKEN'], payload_body)
+    secret = 'c5bec9beeb43d8c419c203bcf7b4600d7ea6ed24'
+    signature = 'sha1=' + OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha1'), secret, payload_body)
     return halt 500, "Signatures didn't match!" unless Rack::Utils.secure_compare(signature, request.env['HTTP_X_HUB_SIGNATURE'])
   end
 end
