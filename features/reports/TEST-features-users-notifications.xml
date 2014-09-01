@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Receive notifications on project activities" skipped="0" tests="5" time="5.631805">
+<testcase classname="Receive notifications on project activities" name="User receives notification when added as project collaborator" time="0.920918">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Receive notifications on project activities" name="User receives notification when added as project uploader/manager (outline example : | &quot;uploader&quot; |)" time="1.207548">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Receive notifications on project activities" name="User receives notification when added as project uploader/manager (outline example : | &quot;manager&quot; |)" time="1.316664">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Receive notifications on project activities" name="Collaborator receives notification when someone comments on a test" time="1.235792">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Receive notifications on project activities" name="Collaborator receives notification when someone changes project name" time="0.950883">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="User blank state" skipped="0" tests="1" time="0.220526">
+<testcase classname="User blank state" name="View Coleslaw dashboard introduction page" time="0.220526">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="View test result" skipped="0" tests="1" time="1.379298">
+<testcase classname="View test result" name="View the project test result" time="1.379298">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

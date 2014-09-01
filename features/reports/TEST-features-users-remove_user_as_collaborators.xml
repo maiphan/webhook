@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Remove user as collaborators" skipped="0" tests="2" time="1.783947">
+<testcase classname="Remove user as collaborators" name="project owner remove user from collaborator list" time="0.908746">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Remove user as collaborators" name="Project manager remove other from collaborator list" time="0.875201">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

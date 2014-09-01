@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Create project" skipped="0" tests="2" time="2.136081">
+<testcase classname="Create project" name="Create project successfully" time="1.126259">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Create project" name="Create project unsuccessfully" time="1.009822">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

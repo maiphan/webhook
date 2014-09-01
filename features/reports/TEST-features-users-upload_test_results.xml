@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Upload tests" skipped="0" tests="5" time="5.209472">
+<testcase classname="Upload tests" name="Collaborator uploads test feature file successfuly" time="0.390618">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Upload tests" name="Collaborator uploads the same test feature file unsuccessfuly" time="1.163056">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Upload tests" name="Collaborator uploads test outcome file successfuly" time="1.344747">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Upload tests" name="Collaborator uploads test outcome file unsuccessfuly without feature file" time="0.888900">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Upload tests" name="Collaborator uploads the same test outcome file unsuccessfuly" time="1.422151">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

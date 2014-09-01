@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Assign permissions to collaborators" skipped="0" tests="1" time="1.269794">
+<testcase classname="Assign permissions to collaborators" name="Assign permissions to collaborators" time="1.269794">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>
