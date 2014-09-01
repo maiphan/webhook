@@ -6,6 +6,7 @@ class HomeController < ActionController::Base
   end
 
   def payload
+    debugger
     request.body.rewind
     payload_body = request.body.read
     verify_signature(payload_body)
