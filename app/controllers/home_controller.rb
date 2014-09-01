@@ -9,6 +9,7 @@ class HomeController < ActionController::Base
     request.body.rewind
     payload_body = request.body.read
     verify_signature(payload_body)
+    debugger
     # push = JSON.parse(params[:payload])
     # puts "I got some JSON: #{push.inspect}"
     system "bundle exec coleslaw --token DjpBxEx_dL3Z5VK8Y2py xruywz4pyMSTzmJfUEzz"
