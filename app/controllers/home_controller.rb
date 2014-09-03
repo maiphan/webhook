@@ -1,5 +1,5 @@
 class HomeController < ActionController::Base
-  protect_from_forgery with: :null_session
+  skip_before_action :verify_authenticity_token, only: [:payload]
 
   def index
 
@@ -12,8 +12,10 @@ class HomeController < ActionController::Base
     puts "ha"
     # push = JSON.parse(params[:payload])
     # puts "I got some JSON: #{push.inspect}"
-    # system "bundle exec coleslaw --token DjpBxEx_dL3Z5VK8Y2py xruywz4pyMSTzmJfUEzz"
+    system "bundle exec coleslaw --token DjpBxEx_dL3Z5VK8Y2py xruywz4pyMSTzmJfUEzz"
   end
+
+  private
 
   def verify_signature(payload_body)
     secret = 'c5bec9beeb43d8c419c203bcf7b4600d7ea6ed24'
